@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" /> 
+    <title>
+    welcome to...RagnaFree!
+    </title>
+    <link rel="stylesheet" type="text/css" href="client/css/indexStyle.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<form id="form" name="form" class="form" method="post" action="server/cadastrar.php" onsubmit="cadastrar();">
+    <p id="titulo">RagnaFree</p> 
+    <download id="download">Download</download><br></br><br></br>
+    Cadastrar nova conta:<br></br>
+    <table>
+        <tr>
+            <td><label id="label">Login:</label></td>
+            <td><input type="text" name="login" id="login" class="textfield" required="required"/></td>
+        </tr>
+        <tr>
+            <td><label id="label">Senha:</label></td>
+            <td><input type="password" name="senha" id="senha" class="textfield" required="required"/></td>
+        </tr>
+        <tr>
+            <td><label id="label">E-Mail:</label></td>
+            <td><input type="text" name="email" id="email" class="textfield" required="required"/></td>
+        </tr>
+        <tr>
+            <td><label id="label">Sexo:</label></td>
+            <td>
+                <select name="sexo" id="sexo">
+                      <option value="M">Masculino</option>
+                      <option value="F">Feminino</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+        
+    <input type="submit" id="submit" name="entrar" value="Efetuar Cadastro" class="button"/>    
+    
+</form>
+
+<footer>WEBSITE TEMPORÁRIO</footer>
+
+<script src="client/js/jquery-1.11.1.min.js"></script>
+<script src="client/js/serviceLogin.js"></script>
+
+</body>
+</html>

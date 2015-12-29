@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image: url("../img/bg.png");
+}
+
+#form{
+    margin-top: 2%;
+    margin-left: 37.5%;   
+}
+
+#titulo{
+    font-size: 65px;
+    font-family: 'Lobster', cursive;   
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+#option{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.textfield{
+    width: 220px;
+    height: 25px;
+    border-radius: 5px; 
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+#sexo{
+    border-radius: 5px; 
+    height: 32px;
+}
+
+.button{
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;  
+}
+
+.button:hover{
+    cursor: pointer;
+    width: 120px;
+    height: 30px;  
+}
+
+#download{
+    margin-top: 10.0%;
+    margin-left: 11%;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+footer{
+    margin-top: 150px;
+    margin-left: 620px;
+    font-size: 11px; 
+}
