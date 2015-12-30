@@ -10,22 +10,23 @@
 </head>
 <body>
 
-<form id="form" name="form" class="form" method="post" action="server/cadastrar.php" onsubmit="cadastrar();">
+<form id="form" name="form" class="form" method="post">
     <p id="titulo">RagnaFree</p> 
-    <download id="download">Download</download><br></br><br></br>
+    <a href="http://download946.mediafire.com/x6zl6354ibvg/jfv4lqqpmxy6vve/setupRagnaFree.exe"><download id="download">Download</download></a>
+    <br></br><br></br>
     Cadastrar nova conta:<br></br>
     <table>
         <tr>
             <td><label id="label">Login:</label></td>
-            <td><input type="text" name="login" id="login" class="textfield" required="required"/></td>
+            <td><input type="text" name="login" id="login" class="textfield" required="required" autocomplete="off"/></td>
         </tr>
         <tr>
             <td><label id="label">Senha:</label></td>
-            <td><input type="password" name="senha" id="senha" class="textfield" required="required"/></td>
+            <td><input type="password" name="senha" id="senha" class="textfield" required="required" autocomplete="off"/></td>
         </tr>
         <tr>
             <td><label id="label">E-Mail:</label></td>
-            <td><input type="text" name="email" id="email" class="textfield" required="required"/></td>
+            <td><input type="text" name="email" id="email" class="textfield" required="required" autocomplete="off"/></td>
         </tr>
         <tr>
             <td><label id="label">Sexo:</label></td>
@@ -38,14 +39,14 @@
         </tr>
     </table>
         
-    <input type="submit" id="submit" name="entrar" value="Efetuar Cadastro" class="button"/>    
+    <input type="submit" id="submit" name="entrar" value="Efetuar Cadastro" class="button" onclick="cadastrar();"/>    
     
 </form>
 
 <footer>WEBSITE TEMPORÁRIO</footer>
 
 <script src="client/js/jquery-1.11.1.min.js"></script>
-<script src="client/js/serviceLogin.js"></script>
+<script src="client/js/serviceCadastrar.js"></script>
 
 </body>
 </html>
